@@ -1,0 +1,37 @@
+header a h1 {
+    -webkit-text-stroke: 1px black;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.page {
+    background: linear-gradient(to right, #42b6f5, #ff00f2, #ffffff);
+}
+
+.accountstats {
+    border-bottom-right-radius: var(--br);
+    border-bottom-left-radius: var(--br);
+}
+
+.col-header {
+    border-radius: var(--br);
+}
+
+.profile .toots .toot {
+    border-radius: var(--br);
+}
+
+footer a, div.backnextlinks a {
+    color: black;
+}
+
+.profile .header .basic-info .username {
+    -webkit-text-stroke: 1px black;
+    background: linear-gradient(to right, #fcf434, #fff, #9c59d1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile .header .basic-info .username, .profile .header .basic-info .displayname {
+    font-size: 2rem;
+}
