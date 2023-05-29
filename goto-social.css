@@ -35,3 +35,7 @@ footer a, div.backnextlinks a {
 .profile .header .basic-info .username, .profile .header .basic-info .displayname {
     font-size: 2rem;
 }
+
+.field span a {
+    word-wrap: break-word;
+}
