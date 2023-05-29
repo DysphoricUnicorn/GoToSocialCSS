@@ -41,3 +41,11 @@ footer a, div.backnextlinks a {
 .field span a {
     word-wrap: break-word;
 }
+
+.profile .header .basic-info .avatar {
+    border-color: #ff0090;
+}
+
+.toot .author > a .avatar {
+    border-color: #ff0090;
+}
