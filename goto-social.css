@@ -49,3 +49,7 @@ footer a, div.backnextlinks a {
 .toot .author > a .avatar {
     border-color: #ff0090;
 }
+
+div.text:has(details):not(:has(details[open])) + .media {
+    display: none;
+}
